@@ -1,0 +1,68 @@
+/* 🌈 Background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.main-container {
+    text-align: center;
+}
+
+/* 🎯 Heading */
+h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    margin-bottom: 40px;
+}
+
+/* 🎲 Dice container */
+.dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* 🎲 Dice style */
+.dice {
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.dice:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* 🔘 Button container */
+.button-container {
+    margin-top: 40px;
+}
+
+/* 🔘 Button style */
+.custom-btn {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.custom-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
